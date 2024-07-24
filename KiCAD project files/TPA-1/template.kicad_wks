@@ -130,17 +130,30 @@
 		(start 110 12.5)
 		(end 2 12.5)
 	)
-	(tbtext "Black Mesa Research Facility\n"
+	(tbtext "Black Mesa Research Facility"
 		(name "")
 		(pos 75.98 10.7002)
 		(font
-			(size 2 2)
-		)
+			(size 2 2) bold italic)
+	)
+	(tbtext "Preamplifier circuit based on the TL072 OpAmp\n"
+		(name "")
+		(pos 101.38 14.3)
+		(font
+			(size 2.54 2.54) italic)
+		(justify bottom)
 	)
 	(line
 		(name "")
 		(start 110 18.5)
 		(end 2 18.5)
+	)
+	(tbtext "TPA-1"
+		(name "")
+		(pos 73.44 25.0802)
+		(font
+			(size 7.62 7.62) bold italic)
+		(comment "Company name")
 	)
 	(line
 		(name "")
@@ -151,22 +164,5 @@
 		(name "")
 		(start 26 8.5)
 		(end 26 2)
-	)
-	(tbtext "TPA-1"
-		(name "")
-		(pos 72.169 25.3822)
-		(font
-			(face "KiCad Font")
-			(size 7.62 7.62) bold)
-	)
-	(tbtext "Text"
-		(name "")
-		(pos 0 0)
-	)
-	(tbtext "TL072 Preamplifier"
-		(name "")
-		(pos 74.709 15.2222)
-		(font
-			(size 2.54 2.54) bold)
 	)
 )
